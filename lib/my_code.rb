@@ -11,5 +11,10 @@ end
 
 def reduce(source_array)
   accum = 0
-  
+  i = 0
+  while i < source_array.length do
+    accum = accum + yield(source_array[i])
+    i += 1
+  end
+  accum
 end
