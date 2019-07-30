@@ -9,7 +9,7 @@ def map(array)
   new_array
 end
 
-def reduce(array)
+def reduce(source_array)
   accum = 0
   
 end
